@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Clientes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Lista de Clientes</h1>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Fecha de Nacimiento</th>
+                    <th>Teléfono</th>
+                    <th>Email</th>
+                    <th>Dirección</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--Aqui se generan los clientes desde una API o Base de Datos--> 
+            </tbody>
+        </table>
+        <br>
+        <div class="navigation">
+            <a href="index.html" class="nav-button">Inicio</a>
+            <a href="postMap.html" class="nav-button">Agregar</a>
+            <a href="delete.html" class="nav-button">Eliminar Clientes</a>
+        </div>
+    </main>
+        
+    <script src="scripts/getClientes.js"></script>
+</body>
+</html>
