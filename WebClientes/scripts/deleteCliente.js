@@ -4,7 +4,7 @@ formElemento.addEventListener("submit", (event) => {
     event.preventDefault();
     let clienteId = document.getElementById("clienteId").value;
 
-    fetch(`http://localhost:8080/inicio/clientes/${clienteId}`, {
+    fetch(`https://moteteappa.onrender.com/inicio/clientes/${clienteId}`, {
         method: 'DELETE',
         headers: {
             'Content-Type': 'application/json',

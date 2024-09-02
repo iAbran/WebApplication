@@ -20,7 +20,7 @@ formElemento.addEventListener("submit", (event) => {
     let transactionJson = JSON.stringify(transaction);
    /*  console.log(transactionJson); */
 
-    fetch("http://localhost:8080/inicio/clientes/api", {
+    fetch("https://moteteappa.onrender.com/inicio/clientes/api", {
         method: "POST",
         headers: {
             'Content-Type': 'application/json',
